@@ -37,7 +37,7 @@ h4{
 }
 /* HEADER */
 header{
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
     /* height: 55px; */
     /* padding: 10px; */
     position: -webkit-sticky;
@@ -91,7 +91,7 @@ nav ul li button:hover{
     border: 1px solid #0671ec;
     background-color: #0671ec;
     color: #fff;
-    
+    cursor: pointer;
 }
 #night{
     margin-right: 5px;
