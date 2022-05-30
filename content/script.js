@@ -2,7 +2,7 @@ function darkMode(){
     document.querySelector('body').style.backgroundColor = '#262626';
     document.querySelector('body').style.color = '#fff';
     document.querySelector('#about').style.backgroundColor = '#686565';
-    document.querySelector('header').style.backgroundColor = 'rgba(20, 20, 20, 0.7)';
+    document.querySelector('header').style.backgroundColor = 'rgba(21, 20, 20, 0.7)';
     document.querySelector('header').style.boxShadow = '0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 8px 20px 0 rgba(0, 0, 0, 0.1)';
     document.querySelector('.overlays').style.backgroundColor = 'rgba(37, 36, 36, 0.5)';
     document.querySelector('h2').style.color = '#fff';
