@@ -1,8 +1,8 @@
 function darkMode(){
-    document.querySelector('body').style.backgroundColor = '#000';
+    document.querySelector('body').style.backgroundColor = '#262626';
     document.querySelector('body').style.color = '#fff';
     document.querySelector('#about').style.backgroundColor = '#686565';
-    document.querySelector('header').style.backgroundColor = '#000';
+    document.querySelector('header').style.backgroundColor = 'rgba(20, 20, 20, 0.7)';
     document.querySelector('header').style.boxShadow = '0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 8px 20px 0 rgba(0, 0, 0, 0.1)';
     document.querySelector('.overlays').style.backgroundColor = 'rgba(37, 36, 36, 0.5)';
     document.querySelector('h2').style.color = '#fff';
@@ -24,7 +24,7 @@ function notDarkMode(){
     document.querySelector('body').style.backgroundColor = '#fff'
     document.querySelector('body').style.color = '#000';
     document.querySelector('#about').style.backgroundColor = '#eeeeee';
-    document.querySelector('header').style.backgroundColor = '#fff';
+    document.querySelector('header').style.backgroundColor = 'rgba(255, 255, 255, 0.7)';
     document.querySelector('header').style.boxShadow = '0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.10)';
     document.querySelector('.overlays').style.backgroundColor = 'rgba(37, 36, 36, 0)';
     document.querySelector('h2').style.color = '#0671ec';
